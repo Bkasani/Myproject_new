@@ -1,0 +1,15 @@
+trigger: 
+- master
+
+pool:
+ vmImage: ubuntu-latest
+
+stages:
+  - stage: A
+    jobs:
+      - job: Ajob
+        steps:
+          - script: echo "Ascript"
+
+    
+      - 
