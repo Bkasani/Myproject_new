@@ -10,6 +10,3 @@ stages:
       - job: Ajob
         steps:
           - script: echo "Ascript"
-
-    
-      - 
